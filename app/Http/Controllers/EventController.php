@@ -16,6 +16,7 @@ class EventController extends Controller
     public function create(){
         return view('admin.create');
     }
+    
     public function store(Request $request){
         //echo request('title');
        // die;
